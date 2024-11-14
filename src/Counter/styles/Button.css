@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.app h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #4f4f4f;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #5ac296;
+  color: #ffffff;
+  border: 1px solid #72cea3;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #82e3b6; /* Azul pastel más oscuro */
+  border-color: #82e3b6; /* Azul pastel más profundo */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:disabled {
+  background-color: #d1d1d1; /* Gris pastel */
+  color: #a0a0a0;
+  border-color: #d1d1d1;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Estilo para el área de texto donde se muestra el contador */
+.display {
+  font-size: 28px;
+  font-weight: bold;
+  color: #6f6f6f; /* Gris suave */
+  margin-bottom: 20px;
+}
