@@ -1,4 +1,4 @@
-import "../styles/Display.css";
+import "../styles/CounterDisplay.css";
 
 export const Display = ({ content = "no-content" }) => (
   <div className="display">

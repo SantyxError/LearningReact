@@ -2,14 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #8ecae6; 
+  border: 2px solid #83b9d2;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  transition: all 0.3s ease-in-out;
 }
 
 .counter-container h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  color: #333333;
   margin-bottom: 20px;
-}
-
-.counter-container button {
-  margin: 5px;
 }
