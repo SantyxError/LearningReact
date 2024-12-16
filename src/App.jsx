@@ -1,10 +1,8 @@
-import CounterContainer from "./Counter/components/CounterContainer";
-import AutCounterContainer from "./AutomaticCounter/components/AutomaticCounterContainer";
+import UseEffectComponent from "./Ejercicio0/components/UseEffectComponent";
 const App = () => {
   return (
     <div className="app">
-      <CounterContainer />
-      <AutCounterContainer />
+      <UseEffectComponent />
     </div>
   );
 };
